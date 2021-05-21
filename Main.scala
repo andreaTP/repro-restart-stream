@@ -8,7 +8,6 @@ import scala.concurrent.duration._
 
 object Main extends App {
   implicit val system = ActorSystem()
-  // implicit val mat = ActorMaterializer()
 
   def flow = Flow[Int]
     // .async
